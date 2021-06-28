@@ -1,0 +1,43 @@
+// Header
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 94px;
+    background-color: #fff;
+}
+
+.card.container {
+    overflow-y: auto;
+    height: calc(100% - 80px);
+}
+
+.container {
+    align-items: center;
+    a {
+        img {
+            width: 75px;
+            align-items: center;
+            padding-right: 1rem;
+
+        }
+    }
+    .main-navigation {
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        a {
+            display: inline-block;
+            padding: 0.6rem;
+            font-size: 0.8rem;
+            text-decoration: none;
+            font-weight: 800;
+            color: $gray;
+        }
+    }
+}
+

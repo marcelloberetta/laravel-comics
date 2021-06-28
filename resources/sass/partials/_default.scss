@@ -1,0 +1,33 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-col;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    height: 600px;
+}
+
+.general-wrapper {
+    position: relative;
+    height: calc(100% - 90px);
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+input:hover, ul li a img:hover {
+    transform: scale(1.3);
+} 
